@@ -12,6 +12,13 @@ h6,
 p {
     margin: 0;
 }
+li {
+    list-style-type: none;
+}
+
+a {
+    text-decoration: none;
+}
 img {
     display: block;
 }
@@ -46,8 +53,11 @@ ul {
 .navigation {
     display: flex;
     align-items: center;
-}
 
+}
+.container--{
+    padding-left: 0;
+}
 .icon-svg {
     justify-content: center;
     align-items: center;
@@ -75,6 +85,8 @@ ul {
 .nav-list {
     display: flex;
     align-items: center;
+    margin: 0;
+    padding: 0;
 }
 .navigation-link {
     font-weight: 500;
